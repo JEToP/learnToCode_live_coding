@@ -1,0 +1,76 @@
+.comp {
+  padding: 265px 72px 120px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.heading h4 {
+  margin-bottom: 8px;
+  color: #8491a0;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.heading h2 {
+  width: 100%;
+  max-width: 780px;
+  color: white;
+  font-size: 55px;
+  line-height: 110%;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-right: 48px;
+  margin-top: 40px;
+}
+
+.column h1 {
+  margin-bottom: 8px;
+  margin-top: 0;
+  color: #8491a0;
+  font-size: 117px;
+  font-weight: 400;
+}
+
+.column h3 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: white;
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: 700;
+}
+
+.column p {
+  margin: 0;
+  color: white;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.green {
+  color: #3cc74e;
+}
+
+.blue {
+  color: #609bff;
+}
+
+.pink {
+  color: #e95d90;
+}
