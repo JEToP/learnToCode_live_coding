@@ -8,7 +8,6 @@ const Hero = memo(() => {
     <div className={styles.hero}>
       <Section grid>
         <div className={styles.img} />
-        <div className={styles.bg} />
         <div className={styles.content}>
           <h1 className={styles.heading}>
             I’m Robin Williams.
@@ -21,6 +20,7 @@ const Hero = memo(() => {
             I’m your guy.
           </p>
         </div>
+        <div className={styles.bg} />
       </Section>
     </div>
   );
