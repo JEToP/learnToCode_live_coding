@@ -12,7 +12,7 @@ const Navbar = memo(() => {
         event.preventDefault();
         document
           .getElementById(i.getAttribute("href").substring(1))
-          .scrollIntoView({ behavior: "smooth" });
+          .scrollIntoView({ behavior: "smooth", block: "center" });
       })
     );
     return () => {
