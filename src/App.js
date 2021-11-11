@@ -4,6 +4,7 @@ import Companies from './components/companies/Companies';
 import Hero from './components/hero/Hero';
 import Navbar from './components/navbar/Navbar';
 import Skill from './components/skill/Skill';
+import Work from './components/work/Work';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Companies />
       <Skill />
+      <Work />
     </>
   );
 }
