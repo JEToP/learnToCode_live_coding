@@ -2,15 +2,14 @@
 
 * {
   box-sizing: border-box;
+  font-family: Sen, sans-serif;
 }
 
 h1 {
-  font-family: Sen, sans-serif;
   font-weight: 700;
 }
 
 p {
-  font-family: Sen, sans-serif;
   font-weight: 400;
 }
 
