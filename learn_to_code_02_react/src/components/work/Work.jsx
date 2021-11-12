@@ -40,7 +40,7 @@ const Work = memo(() => {
             desc="I worked with the guys at CBRE to redesign their entire website and mobile app fro both Android and iOS. This project lasted for 4 months and was a very challenging one."
           />
           <div className={styles.button_wrapper}>
-            <a href="#" className={styles.cta}>
+            <a href="/" className={styles.cta}>
               VIEW ALL PROJECTS
             </a>
           </div>
