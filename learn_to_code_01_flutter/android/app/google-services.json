@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "571662309911",
+    "project_id": "learntocode---01---flutter",
+    "storage_bucket": "learntocode---01---flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571662309911:android:21d0f24622bbcc439a9a52",
+        "android_client_info": {
+          "package_name": "com.jetop.learn_to_code_01_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571662309911-sa1vb7i5pcuvucgi9vl2b54nc8qs7akq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI2zJV-Z9x5kNDhd075WvjxhwP3wTxKeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571662309911-sa1vb7i5pcuvucgi9vl2b54nc8qs7akq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "571662309911-5i8sm7iblcha26bkb4erd11r8ku2konm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jetop.learntocode01flutter"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571662309911:android:757df88ae37636949a9a52",
+        "android_client_info": {
+          "package_name": "com.jetop.learntocode01flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571662309911-sa1vb7i5pcuvucgi9vl2b54nc8qs7akq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI2zJV-Z9x5kNDhd075WvjxhwP3wTxKeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571662309911-sa1vb7i5pcuvucgi9vl2b54nc8qs7akq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "571662309911-5i8sm7iblcha26bkb4erd11r8ku2konm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jetop.learntocode01flutter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
