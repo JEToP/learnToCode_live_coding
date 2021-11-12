@@ -10,7 +10,7 @@ import styles from "./work.module.css";
 
 const Work = memo(() => {
   return (
-    <div className={styles.work_wrapper}>
+    <div className={styles.work_wrapper} id="work">
       <Section grid className={styles.section}>
         <div>
           <div className={styles.heading}>

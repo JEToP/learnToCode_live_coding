@@ -8,11 +8,10 @@ const Navbar = memo(() => {
     const navigationItems = document.querySelectorAll(`.${styles.nav_link}`);
     navigationItems.forEach((i) =>
       i.addEventListener("click", (event) => {
-        console.log("scrolll");
         event.preventDefault();
         document
           .getElementById(i.getAttribute("href").substring(1))
-          .scrollIntoView({ behavior: "smooth", block: "center" });
+          .scrollIntoView({ behavior: "smooth" });
       })
     );
     return () => {
