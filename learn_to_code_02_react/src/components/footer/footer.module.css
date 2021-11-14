@@ -1,7 +1,7 @@
 .footer {
   height: 422px;
   padding: 80px 72px;
-  background-color: #181823;
+  background-color: var(--bg-main);
 }
 
 .section {
@@ -53,7 +53,7 @@
 
 .footer_link {
   padding: 16px 0;
-  color: white;
+  color: var(--text);
   font-size: 16px;
   text-decoration: none;
   display: block;
@@ -61,11 +61,11 @@
 }
 
 .footer_link:hover {
-  color: rgb(0, 255, 255);
+  color: var(--secondary);
 }
 
 .copyright p {
-  color: #8491a0;
+  color: var(--dark-text);
   margin-bottom: 0;
   font-size: 16px;
   line-height: 150%;
@@ -73,7 +73,7 @@
 }
 
 .copyright a {
-  color: #0ff;
+  color: var(--secondary);
   margin-bottom: 0;
   font-size: 16px;
   line-height: 150%;

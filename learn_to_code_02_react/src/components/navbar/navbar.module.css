@@ -28,12 +28,12 @@
 }
 
 .nav_link:hover {
-  color: #0ff;
+  color: var(--secondary);
   outline: 0;
 }
 
 .nav_contact {
-  background-color: #5221e6;
-  color: white;
+  background-color: var(--primary);
+  color: var(--text);
   font-weight: 700;
 }

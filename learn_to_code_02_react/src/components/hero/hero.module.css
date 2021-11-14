@@ -24,7 +24,7 @@
   font-size: 76px;
   line-height: 110%;
   margin-bottom: 32px;
-  color: white;
+  color: var(--text);
 }
 
 .heading span {
@@ -32,7 +32,7 @@
 }
 
 .copy {
-  color: white;
+  color: var(--text);
   font-size: 18px;
   line-height: 150%;
 }
@@ -47,5 +47,5 @@
   width: 65vw;
   height: 110vh;
   max-height: 1350px;
-  background: linear-gradient(180deg, #181823, #181823);
+  background: linear-gradient(180deg, var(--bg-main), var(--bg-main));
 }

@@ -12,13 +12,13 @@
   width: 100%;
   max-width: 780px;
   margin-top: 0;
-  color: white;
+  color: var(--text);
   font-size: 55px;
   line-height: 110%;
 }
 
 .desc {
-  color: #8491a0;
+  color: var(--dark-text);
   font-size: 18px;
   line-height: 150%;
   margin-top: 0;
@@ -30,7 +30,7 @@
 }
 
 .form label {
-  color: white;
+  color: var(--text);
   margin-bottom: 0;
   font-size: 16px;
   line-height: 150%;
@@ -41,8 +41,8 @@
   margin-top: 8px;
   margin-bottom: 40px;
   border: 0;
-  background-color: #181823;
-  color: white;
+  background-color: var(--bg-main);
+  color: var(--text);
   display: block;
   width: 100%;
   height: 38px;
@@ -57,10 +57,10 @@ textarea.input {
 .button {
   width: 100%;
   padding: 24px 15px;
-  background-color: #5221e6;
+  background-color: var(--primary);
   font-size: 18px;
   font-weight: 700;
-  color: white;
+  color: var(--text);
   border: 0;
   text-decoration: none;
   cursor: pointer;

@@ -17,7 +17,7 @@
 .heading h4 {
   display: inline-block;
   margin-bottom: 8px;
-  color: #8491a0;
+  color: var(--dark-text);
   font-size: 16px;
   line-height: 150%;
   font-weight: 700;
@@ -29,7 +29,7 @@
   max-width: 780px;
   margin-top: 0;
   margin-bottom: 0;
-  color: white;
+  color: var(--text);
   font-size: 55px;
   line-height: 110%;
 }
@@ -43,8 +43,8 @@
 
 .cta {
   padding: 24px 32px;
-  border: 1px solid #5221e6;
-  color: white;
+  border: 1px solid var(--primary);
+  color: var(--text);
   font-size: 18px;
   font-weight: 700;
   background-color: rgba(56, 152, 236, 0);
@@ -55,7 +55,7 @@
 }
 
 .cta:hover {
-  background-color: #5221e6;
+  background-color: var(--primary);
   box-shadow: 0 20px 60px 0 rgb(82 33 230 / 30%);
   transform: translate(0px, -5px);
   outline: 0;

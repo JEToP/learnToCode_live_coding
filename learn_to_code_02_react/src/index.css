@@ -1,16 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap");
 
+:root {
+  --base: black;
+  --bg-main: #181823;
+  --text: white;
+  --dark-text: #8491a0;
+  --primary: #5221e6;
+  --secondary: #0ff;
+  --green: #3cc74e;
+  --pink: #e95d90;
+  --peach: #fff3e4;
+}
+
 * {
   box-sizing: border-box;
   font-family: Sen, sans-serif;
-}
-
-h1 {
-  font-weight: 700;
-}
-
-p {
-  font-weight: 400;
 }
 
 body {
@@ -20,10 +24,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: black;
+  background: var(--base);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
 }

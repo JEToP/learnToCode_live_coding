@@ -11,7 +11,7 @@
 }
 
 .container:hover .desc h3 {
-  color: rgb(0, 255, 255);
+  color: var(--secondary);
   transform: translateX(10px);
 }
 
@@ -30,13 +30,13 @@
 .desc {
   position: relative;
   padding: 40px 32px;
-  background-color: #181823;
+  background-color: var(--bg-main);
 }
 
 .desc h3 {
   margin-top: 0px;
   margin-bottom: 16px;
-  color: white;
+  color: var(--text);
   font-size: 24px;
   line-height: 120%;
   font-weight: 700;
@@ -44,7 +44,7 @@
 }
 
 .desc p {
-  color: #8491a0;
+  color: var(--dark-text);
   font-size: 18px;
   line-height: 150%;
   margin-top: 0;
@@ -57,7 +57,7 @@
   height: 48px;
   align-items: center;
   justify-content: center;
-  background-color: #5221e6;
+  background-color: var(--primary);
   position: absolute;
   left: auto;
   top: auto;

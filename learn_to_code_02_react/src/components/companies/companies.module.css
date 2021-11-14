@@ -11,7 +11,7 @@
 
 .heading h4 {
   margin-bottom: 8px;
-  color: #8491a0;
+  color: var(--dark-text);
   font-size: 16px;
   font-weight: 700;
   line-height: 150%;
@@ -20,7 +20,7 @@
 .heading h2 {
   width: 100%;
   max-width: 780px;
-  color: white;
+  color: var(--text);
   font-size: 55px;
   line-height: 110%;
   margin: 0;
@@ -42,7 +42,7 @@
 .column h1 {
   margin-bottom: 8px;
   margin-top: 0;
-  color: #8491a0;
+  color: var(--dark-text);
   font-size: 117px;
   font-weight: 400;
 }
@@ -50,7 +50,7 @@
 .column h3 {
   margin-top: 0;
   margin-bottom: 16px;
-  color: white;
+  color: var(--text);
   font-size: 24px;
   line-height: 120%;
   font-weight: 700;
@@ -58,13 +58,13 @@
 
 .column p {
   margin: 0;
-  color: white;
+  color: var(--text);
   font-size: 16px;
   line-height: 150%;
 }
 
 .green {
-  color: #3cc74e;
+  color: var(--green);
 }
 
 .blue {
@@ -72,5 +72,5 @@
 }
 
 .pink {
-  color: #e95d90;
+  color: var(--pink);
 }

@@ -1,6 +1,6 @@
 .skill_wrapper {
   padding: 120px 72px;
-  background-color: #fff3e4;
+  background-color: var(--peach);
 }
 
 .section {
@@ -29,7 +29,7 @@
 }
 
 .desc p {
-  color: #8491a0;
+  color: var(--dark-text);
   font-size: 18px;
   line-height: 150%;
   margin-top: 0;
@@ -62,7 +62,7 @@
 }
 
 .skill p {
-  color: #8491a0;
+  color: var(--dark-text);
   margin-bottom: 0;
   font-size: 16px;
   line-height: 150%;
